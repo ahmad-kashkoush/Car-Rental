@@ -8,10 +8,15 @@
   }
 }
 @layer components {
+  /* Pick Content */
+  .pick-content{
+    
+  }
   /* Titles */
   .section-sub-title {
     @apply font-sans text-3xl text-title;
   }
+
   .section-title {
     @apply font-sans text-5xl text-title;
   }
