@@ -1,6 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  p {
+    @apply font-mono text-normal-text;
+  }
+}
+@layer components {
+  /* Titles */
+  .section-sub-title {
+    @apply font-sans text-3xl text-title;
+  }
+  .section-title {
+    @apply font-sans text-5xl text-title;
+  }
+  /* Plan: boxes */
+  .plan-box {
+    @apply flex max-w-[17rem] flex-col gap-2 px-10 text-center;
+  }
+  .footer-contact {
+    @apply flex gap-2 text-base font-medium transition-all duration-300 hover:text-accent;
+  }
+  .footer-contact:hover img {
+    @apply transition-all duration-300;
+    filter: invert(57%) sepia(61%) saturate(6213%) hue-rotate(340deg)
+      brightness(104%) contrast(110%);
+  }
   .body-overflow:has(.hamburgerMenu input:checked) {
     overflow: hidden;
   }
@@ -94,3 +120,5 @@
       display: none;
     }
   }
+}
+
