@@ -9,8 +9,7 @@
 }
 @layer components {
   /* Pick Content */
-  .pick-content{
-    
+  .pick-content {
   }
   /* Titles */
   .section-sub-title {
@@ -23,6 +22,16 @@
   /* Plan: boxes */
   .plan-box {
     @apply flex max-w-[17rem] flex-col gap-2 px-10 text-center;
+  }
+  section.choose{
+    background-image: url("images/chooseUs/bg.png");
+  }
+  .choose-box {
+    @apply flex flex-col items-center justify-center gap-2 text-center sm:flex-row sm:text-left sm:gap-5;
+    max-width:34rem;
+  }
+  .choose-box p, .choose-box h3{
+    @apply px-8;
   }
   .footer-contact {
     @apply flex gap-2 text-base font-medium transition-all duration-300 hover:text-accent;
@@ -44,13 +53,13 @@
       min-height: 100vh;
       min-width: 100vw;
       background-color: #f8f8f8 !important;
-      left: -100%;
+      left: -150%;
       transition: translate 0.3s ease-in;
       gap: 2rem;
       background-color: var(--color-dark--2);
     }
     .hamburgerMenu:has(input:checked) + ul {
-      translate: 100%;
+      translate: 150%;
     }
     .hamburgerMenu + ul a {
       font-size: 1.7rem;
@@ -126,4 +135,3 @@
     }
   }
 }
-
