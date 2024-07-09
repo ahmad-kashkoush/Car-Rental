@@ -1,3 +1,5 @@
+import TextContainer from '@/shared/TextContainer';
+
 function Plan() {
   return (
     <section className="plan mt-[10rem]">
@@ -8,34 +10,31 @@ function Plan() {
         </h1>
         <div className="flex flex-row flex-wrap justify-center gap-6 md:justify-between">
           <div className="plan-box">
-            <img src="images/plan/icon1.png" alt="" className="w-[14rem]" />
-            <h3 className="section-sub-title text-3xl font-bold">
-              Select a car
-            </h3>
-            <p className="">
-              We offers a big range of vehicles for all your driving needs. We
-              have the perfect car to meet your needs
-            </p>
+            <TextContainer
+              imgSrc="images/plan/icon1.png"
+              alt="plan Icon 1"
+              h3="Select a car"
+              p="We offers a big range of vehicles for all your driving needs. We
+              have the perfect car to meet your needs"
+            />
           </div>
           <div className="plan-box">
-            <img src="images/plan/icon3.png" alt="" className="w-[14rem]" />
-            <h3 className="section-sub-title text-3xl font-bold">
-              Let's Drive
-            </h3>
-            <p className="">
-              Whether you're hitting the open road, we've got you covered with
-              our wide range of cars
-            </p>
+            <TextContainer
+              imgSrc="images/plan/icon2.png"
+              alt="plan Icon 2"
+              h3="Let's Drive"
+              p="Whether you're hitting the open road, we've got you covered with
+            our wide range of cars"
+            />
           </div>
           <div className="plan-box">
-            <img src="images/plan/icon2.png" alt="" className="w-[14rem]" />
-            <h3 className="section-sub-title text-3xl font-bold">
-              Contact Operator
-            </h3>
-            <p className="">
-              Our knowledgeable and friendly operators are always ready to help
-              with any questions or concerns
-            </p>
+            <TextContainer
+              imgSrc="images/plan/icon3.png"
+              alt="plan Icon 3"
+              h3="Contact Operator"
+              p="Our knowledgeable and friendly operators are always ready to help
+              with any questions or concerns"
+            />
           </div>
         </div>
       </div>
