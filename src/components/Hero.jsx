@@ -2,7 +2,7 @@ import Button from '@/shared/Button';
 
 function Hero() {
   return (
-    <div className="hero mt-[10rem] h-[97vh] px-6 py-20 text-center lg:text-left">
+    <div className="hero mt-[10rem] h-[97vh] px-6 py-20 text-center lg:text-left bg-bg-secondary">
       <img
         src="images/hero/hero-bg.png"
         className="absolute right-0 top-0 z-10 hidden lg:block"

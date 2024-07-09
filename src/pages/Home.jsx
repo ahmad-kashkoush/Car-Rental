@@ -16,9 +16,9 @@ function Home() {
       <Hero /> {/* todo: [ ] make car on same row with buttons */}
       <Booking /> {/* Implemented, ✏️ need review & refactoring */}
       <Plan /> {/* Implemented */}
-      <Pick />
-      <Banner />
-      <Choose />
+      <Pick /> {/* Implemented */}
+      <Banner /> {/* TODO: [x]  */}
+      <Choose /> {/* TODO: [x] */}
       <TestimonialSection />
       <Faq />
       <Download />
