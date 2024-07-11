@@ -23,16 +23,46 @@
   .plan-box {
     @apply flex max-w-[17rem] flex-col gap-2 px-10 text-center;
   }
-  section.choose{
-    background-image: url("images/chooseUs/bg.png");
+  section.choose {
+    background-image: url('images/chooseUs/bg.png');
   }
   .choose-box {
-    @apply flex flex-col items-center justify-center gap-2 text-center sm:flex-row sm:text-left sm:gap-5;
-    max-width:34rem;
+    @apply flex flex-col items-center justify-center gap-2 text-center sm:flex-row sm:gap-5 sm:text-left;
+    max-width: 34rem;
   }
-  .choose-box p, .choose-box h3{
+  .choose-box p,
+  .choose-box h3 {
     @apply px-8;
   }
+  /* FAQs */
+  section.faq {
+    background-image: url('images/faq/car.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 80%;
+  }
+  .faq-question.active-transition {
+    transition: background-color 300ms ease-in-out;
+  }
+  .faq-answer.active-transition {
+    transition:
+      opacity 400ms ease,
+      padding-top 400ms ease,
+      height 400ms ease;
+  }
+  /* Download */
+
+  @media (min-width: 992px) {
+    section.download {
+      background-image: url('/public/images/download/bg-download-mobile.png');
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+
   .footer-contact {
     @apply flex gap-2 text-base font-medium transition-all duration-300 hover:text-accent;
   }
@@ -83,10 +113,10 @@
     display: flex;
     flex-direction: column;
     gap: var(--hamburger-gap);
-    position: absolute;
+    /* position: absolute; */
     width: max-content;
-    top: 16px;
-    right: 0;
+    /* top: 16px;
+    right: 0; */
     z-index: 2;
     cursor: pointer;
     background-color: var(--background-color);
