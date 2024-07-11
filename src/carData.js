@@ -2,6 +2,8 @@ const CAR_DATA = [
     {
         id: "1",
         name: "Audi A1 S-Line",
+        cardName: "Audi A1",
+        cardImage: "images/cars-big/audi-box.png",
         image: "images/cars-big/audia1.jpg",
         rent: 45,
         model: "Audi",
@@ -15,6 +17,8 @@ const CAR_DATA = [
     {
         id: "2",
         name: "Toyota Camry",
+        cardName: "Toyota",
+        cardImage: "public/images/cars-big/toyota-box.png",
         image: "images/cars-big/toyotacamry.jpg",
         rent: 55,
         model: "Camry",
@@ -28,6 +32,8 @@ const CAR_DATA = [
     {
         id: "3",
         name: "BMW 320 ModernLine",
+        cardName: "BMW 320",
+        cardImage: "public/images/cars-big/bmw-box.png",
         image: "images/cars-big/bmw320.jpg",
         rent: 25,
         model: "320",
@@ -41,6 +47,8 @@ const CAR_DATA = [
     {
         id: "4",
         name: "Mercedes-Benz GLK",
+        cardImage: "public/images/cars-big/benz-box.png",
+        cardName: "Mercedes",
         image: "images/cars-big/benz.jpg",
         rent: 75,
         model: "Benz GLK",
@@ -54,6 +62,8 @@ const CAR_DATA = [
     {
         id: "5",
         name: "VW Passat CC",
+        cardImage: "public/images/cars-big/passat-box.png",
+        cardName: "VW Passat",
         image: "images/cars-big/passatcc.jpg",
         rent: 45,
         model: "Passat CC",

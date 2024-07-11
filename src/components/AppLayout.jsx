@@ -1,5 +1,3 @@
-// import Footer from "@/ui/Footer";
-// import Header from "@/ui/Header";
 import { Header, Footer } from '@/components';
 import { Outlet } from 'react-router-dom';
 

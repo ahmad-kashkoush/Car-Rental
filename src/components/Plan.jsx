@@ -2,13 +2,13 @@ import TextContainer from '@/shared/TextContainer';
 
 function Plan() {
   return (
-    <section className="plan mt-[10rem]">
+    <section className="plan py-32 bg-bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="section-sub-title font-medium">Plan Your Trip</h2>
         <h1 className="section-title mb-16 mt-3 font-bold">
           Quick & easy car rental
         </h1>
-        <div className="flex flex-row flex-wrap justify-center gap-6 md:justify-between">
+        <div className="flex flex-row flex-wrap justify-center gap-6">
           <div className="plan-box">
             <TextContainer
               imgSrc="images/plan/icon1.png"

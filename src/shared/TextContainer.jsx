@@ -12,7 +12,7 @@ function TextContainer({ imgSrc, alt, h3, p, isChooseBox = false }) {
   }
   return (
     <>
-      <img src={imgSrc} alt={alt} className="max-w-[14rem]" />
+      <img src={imgSrc} alt={alt} className="max-w-[9rem] w-full" />
       <h3 className="section-sub-title text-3xl font-bold">{h3}</h3>
       <p className="">{p}</p>
     </>

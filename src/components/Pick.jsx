@@ -1,7 +1,7 @@
-import { CAR_DATA, getCarDataById, getCarNameById } from '@/carData';
+import { CAR_DATA, getCarDataById } from '@/carData';
 import Button from '@/shared/Button';
 import { useState } from 'react';
-import { CarBox } from './CarBox';
+import CarBox  from './CarBox';
 
 function Pick() {
   const [activeCar, setActiveCar] = useState(() => getCarDataById('1'));
@@ -10,11 +10,11 @@ function Pick() {
     return;
   }
   return (
-    <section className="pick mt-[10rem]">
-      <div className="  mx-auto px-8 text-center">
+    <section className="pick py-32">
+      <div className="mx-auto max-w-[75rem] px-8 text-center">
         <h2 className="section-sub-title font-medium">Vehicle Models</h2>
         <h1 className="section-title mt-3 font-bold">Our rental fleet</h1>
-        <p className="mt-3 text-base max-w-[20rem] mx-auto">
+        <p className="mx-auto mt-3 max-w-[20rem] text-base">
           Choose from a variety of our amazing vehicles to rent for your next
           adventure or business trip
         </p>

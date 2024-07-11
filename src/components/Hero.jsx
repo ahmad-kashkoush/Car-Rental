@@ -2,17 +2,17 @@ import Button from '@/shared/Button';
 
 function Hero() {
   return (
-    <div className="hero mt-[10rem] h-[97vh] px-6 py-20 text-center lg:text-left bg-bg-secondary">
+    <div className="hero  h-[97vh] bg-bg-secondary px-8 py-32 text-center lg:text-left">
       <img
         src="images/hero/hero-bg.png"
-        className="absolute right-0 top-0 z-10 hidden lg:block"
+        className="absolute right-0 top-0 z-30 hidden lg:block"
       />
-      <div className="container relative mx-auto">
+      <div className="container relative mx-auto xl:mt-12">
         <img
           src="images/hero/main-car.png"
-          className="absolute right-0 z-10 hidden w-[65%] lg:block"
+          className="absolute right-0 bottom-0 z-30 hidden w-[65%] lg:block"
         />
-        <div className="relative z-30 lg:max-w-[28rem]">
+        <div className="relative z-30 lg:max-w-[28rem] ">
           <h4 className="font-sans text-2xl font-bold text-title">
             Plan your trip now
           </h4>
@@ -23,9 +23,9 @@ function Hero() {
             Rent the car of your dreams. Unbeatable prices, unlimited miles,
             flexible pick-up options and much more.
           </p>
-          <div className="mt-4 space-x-3 space-y-3">
+          <div className="mt-4 flex  items-center gap-3 flex-wrap justify-center lg:items-start lg:justify-start">
             <Button styleType="primary">
-              <div className="flex gap-2">
+              <div className="flex gap-4">
                 Book Ride <img src="images/circular-right.svg" />
               </div>
             </Button>

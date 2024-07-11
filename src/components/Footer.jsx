@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="mx-auto grid grid-cols-1 gap-12 px-[5rem] my-[10rem] py-[10rem] md:grid-cols-2 lg:grid-cols-4">
+    <footer className="mx-auto grid grid-cols-1 gap-12 px-[5rem] py-32 md:grid-cols-2 lg:grid-cols-4">
       <div className="text-center md:text-left">
         <h2 className="text-2xl">
           <span className="font-semibold uppercase text-title">Car</span> Rental
@@ -18,6 +18,13 @@ function Footer() {
         <Link className="footer-contact mt-1 justify-center md:justify-start">
           <img src="images/envelop.svg" />
           carrental@gmail.com
+        </Link>
+        <Link
+          className="footer-contact mt-3 justify-center text-sm font-normal md:justify-start"
+          to={'https://xpeedstudio.com/'}
+          target="blank"
+        >
+          Design by XpeedStudio
         </Link>
       </div>
       <div className="text-center md:text-left">
@@ -61,7 +68,7 @@ function Footer() {
         <form className="mt-4">
           <input
             type="text"
-            className="bg-gray-input w-full px-6 py-3 placeholder:text-sm"
+            className="w-full bg-gray-input px-6 py-3 placeholder:text-sm"
             placeholder="Enter Email Address"
           />
           <button className="mt-4 w-full bg-accent py-4 text-center font-semibold text-white transition duration-300 hover:bg-black-btn">

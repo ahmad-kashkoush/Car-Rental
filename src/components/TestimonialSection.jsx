@@ -1,6 +1,6 @@
 function TestimonialSection() {
   return (
-    <section className="testomonial mt-[10rem] bg-bg-secondary py-32">
+    <section className="testomonial mt-[10rem] bg-bg-secondary py-32 pt-52">
       <div className="container mx-auto px-8 text-center">
         <h2 className="section-sub-title mx-auto max-w-[34rem] font-medium">
           Reviewed by People

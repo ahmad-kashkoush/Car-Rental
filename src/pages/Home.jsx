@@ -12,14 +12,14 @@ import {
 
 function Home() {
   return (
-    <main className="home w-full grow ">
-      <Hero /> {/* todo: [ ] make car on same row with buttons */}
-      <Booking /> {/* Implemented, ✏️ need review & refactoring */}
-      <Plan /> {/* Implemented */}
-      <Pick /> {/* Implemented */}
+    <main className="home w-full grow">
+      <Hero /> {/* Todo: [x] make car on same row with buttons */}
+      <Booking /> {/*TODO: [ ] ✏️ need review & refactoring */}
+      <Plan /> {/* TODO: [x]*/}
+      <Pick /> {/* TODO: [x]*/}
       <Banner /> {/* TODO: [x]  */}
       <Choose /> {/* TODO: [x] */}
-      <TestimonialSection />
+      <TestimonialSection /> {/* TODO: [x] */}
       <Faq />
       <Download />
     </main>

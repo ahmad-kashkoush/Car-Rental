@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 const dropDowns = [
   {
+    id: '1',
     label: 'Select Car type',
     for: 'car-type',
     preIcon: 'images/car-type-icon.svg',
@@ -17,6 +18,7 @@ const dropDowns = [
     ],
   },
   {
+    id: '2',
     label: 'Pick-up',
     for: 'pick-up',
     preIcon: 'images/marker-icon.svg',
@@ -31,6 +33,7 @@ const dropDowns = [
     ],
   },
   {
+    id: '3',
     label: 'Drop-of',
     for: 'drop-of',
     preIcon: 'images/marker-icon.svg',
@@ -49,12 +52,12 @@ function Booking() {
   const [date, setDate] = useState(new Date());
   // Todo: [] update section padding
   return (
-    <section className="booking mx-4">
+    <section className="booking px-8 bg-bg-secondary">
       <div className="container mx-auto bg-bg-primary px-12 py-8 shadow-md">
         <SectionTitle className="font-semibold">Book a car</SectionTitle>
         <form className="grid grid-cols-1 gap-5 lg:grid-cols-2">
           {dropDowns.map((item) => (
-            <div className="" key={item}>
+            <div className="" key={item.id}>
               <label className="flex gap-1" htmlFor={item.for}>
                 <img src={item.preIcon} />
                 {item.label}
@@ -99,7 +102,7 @@ function Booking() {
             />
           </div>
 
-          <button className="h-fit w-full place-self-end bg-accent px-4 py-2 font-medium text-white">
+          <button className="h-fit w-full place-self-end bg-accent px-4 py-3 font-medium text-white hover:bg-black-btn transition-colors duration-300">
             Search
           </button>
         </form>

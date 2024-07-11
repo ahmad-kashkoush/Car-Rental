@@ -1,4 +1,4 @@
-export function CarBox({ car }) {
+export default  function CarBox({ car }) {
   return (
     <div className="flex-3 mx-auto flex flex-col items-center justify-between gap-8 md:flex-row">
       <img
