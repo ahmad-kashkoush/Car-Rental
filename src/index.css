@@ -6,11 +6,17 @@
   p {
     @apply font-mono text-normal-text;
   }
+  .body-overflow > main {
+    @apply w-full grow;
+  }
 }
 @layer components {
-  /* Pick Content */
-  .pick-content {
+  .model-cards-wrapper, .member-cards-wrapper {
+    @apply mx-auto grid justify-center gap-4;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
+  
+
   /* Titles */
   .section-sub-title {
     @apply font-sans text-3xl text-title;
@@ -21,7 +27,7 @@
   }
   /* Plan: boxes */
   .plan-box {
-    @apply flex max-w-[17rem] flex-col gap-2 px-10 text-center;
+    @apply flex max-w-[17rem] flex-col items-center justify-start gap-2 text-center;
   }
   section.choose {
     background-image: url('images/chooseUs/bg.png');
@@ -52,7 +58,7 @@
   }
   /* Download */
 
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     section.download {
       background-image: url('/public/images/download/bg-download-mobile.png');
       background-position: top center;
@@ -62,7 +68,31 @@
       height: auto;
     }
   }
-
+  /* HeroBG */
+  .hero-bg {
+    background-image: url('images/hero/heroes-bg.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+  }
+  /* .about .plan {
+    margin-top: 10rem;
+    } */
+  .about-banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/banners/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .footer-contact {
     @apply flex gap-2 text-base font-medium transition-all duration-300 hover:text-accent;
   }
@@ -74,7 +104,7 @@
   .body-overflow:has(.hamburgerMenu input:checked) {
     overflow: hidden;
   }
-  @media (max-width: 1100px) {
+  @media (max-width: 1140px) {
     .hamburgerMenu + ul {
       /* translate: 100%; */
       flex-direction: column;
@@ -95,6 +125,7 @@
       font-size: 1.7rem;
     }
   }
+
   /* Hambuer Menu */
   .hamburgerMenu {
     /* variables */
@@ -159,7 +190,7 @@
     width: var(--x-width);
     translate: 0 calc(var(--bar-height) / 2);
   }
-  @media (min-width: 1100px) {
+  @media (min-width: 1140px) {
     .hamburgerMenu {
       display: none;
     }
