@@ -23,7 +23,7 @@
   }
 
   .section-title {
-    @apply font-sans text-5xl text-title;
+    @apply font-sans text-4xl sm:text-5xl text-title;
   }
   /* Plan: boxes */
   .plan-box {

@@ -6,7 +6,7 @@ function TestimonialSection() {
           Reviewed by People
         </h2>
         <h1 className="section-title mx-auto mb-6 mt-3 max-w-[34rem] font-bold">
-          Client's Testimonials
+           Testimonials
         </h1>
         <p className="mx-auto mb-5 max-w-[34rem]">
           Discover the positive impact we've made on the our clients by reading

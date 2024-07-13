@@ -36,7 +36,7 @@ function Header() {
                 />
               </Link>
             </div>
-            <label htmlFor="ham-checkbox" className="hamburgerMenu px-6 py-4">
+            <label htmlFor="ham-checkbox" className="hamburgerMenu  py-4">
               <input
                 type="checkbox"
                 id="ham-checkbox"
