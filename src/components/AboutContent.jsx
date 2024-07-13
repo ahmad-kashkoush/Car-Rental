@@ -4,7 +4,7 @@ function AboutContent() {
       <div className="container mx-auto max-w-[55rem] px-8">
         <div className="align-center mx-auto flex flex-col items-center gap-8 text-center lg:flex-row lg:text-left">
           <img
-            src="images/about/about-main.jpg"
+            src="images/about/about-main.png"
             alt="about-image"
             className=""
           />

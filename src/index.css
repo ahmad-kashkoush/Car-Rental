@@ -11,11 +11,11 @@
   }
 }
 @layer components {
-  .model-cards-wrapper, .member-cards-wrapper {
+  .model-cards-wrapper,
+  .member-cards-wrapper {
     @apply mx-auto grid justify-center gap-4;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
-  
 
   /* Titles */
   .section-sub-title {
@@ -23,7 +23,7 @@
   }
 
   .section-title {
-    @apply font-sans text-4xl sm:text-5xl text-title;
+    @apply font-sans text-4xl text-title sm:text-5xl;
   }
   /* Plan: boxes */
   .plan-box {
@@ -60,7 +60,7 @@
 
   @media (min-width: 1024px) {
     section.download {
-      background-image: url('/public/images/download/bg-download-mobile.png');
+      background-image: url('images/download/bg-download-mobile.png');
       background-position: top center;
       background-repeat: no-repeat;
       background-size: cover;

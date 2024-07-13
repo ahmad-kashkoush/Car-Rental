@@ -15,13 +15,13 @@ const teamMembers = [
   },
   {
     id: '3',
-    img: 'images/team/3.png',
+    img: 'images/team/1.png',
     name: 'Nana',
     jobTitle: 'Product Manager',
   },
   {
     id: '4',
-    img: 'images/team/4.png',
+    img: 'images/team/2.png',
     name: 'Abena',
     jobTitle: 'Design Engineer',
   },
@@ -33,7 +33,7 @@ const teamMembers = [
   },
   {
     id: '6',
-    img: 'images/team/6.png',
+    img: 'images/team/2.png',
     name: 'Kwame',
     jobTitle: 'Devops Engineer',
   },

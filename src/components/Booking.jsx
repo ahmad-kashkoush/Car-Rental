@@ -52,7 +52,7 @@ function Booking() {
   const [date, setDate] = useState(new Date());
   // Todo: [] update section padding
   return (
-    <section className="booking px-8 bg-bg-secondary">
+    <section className="booking px-8 py-32 bg-bg-secondary">
       <div className="container mx-auto bg-bg-primary px-12 py-8 shadow-md">
         <SectionTitle className="font-semibold">Book a car</SectionTitle>
         <form className="grid grid-cols-1 gap-5 lg:grid-cols-2">
