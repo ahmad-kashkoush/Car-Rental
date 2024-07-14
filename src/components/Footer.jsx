@@ -58,8 +58,8 @@ function Footer() {
           ))}
         </ul>
       </div>
-      <div className="text-center md:text-left">
-        <h2 className="text-2xl font-semibold uppercase text-title">
+      <div className="text-center md:text-left break-words">
+        <h2 className="text-2xl font-semibold uppercase text-title ">
           Subscription
         </h2>
         <p className="mt-4">
