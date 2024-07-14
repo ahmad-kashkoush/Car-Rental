@@ -70,7 +70,7 @@
   }
   /* HeroBG */
   .hero-bg {
-    background-image: url('images/hero/heroes-bg.png');
+    background-image: url('../public/images/hero/heroes-bg.png');
     position: absolute;
     top: 0;
     left: 0;
